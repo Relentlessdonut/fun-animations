@@ -3,9 +3,17 @@
     background-color: rgb(44, 77, 77);
     font-size: 13em;
     text-align: center;
+}   
+
+img{
     animation-name: slideDown;
-    animation-duration: 3s
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.56, 0.2, 0, 1.23);
 }
+
 @keyframes slideLeft{
     from{transform: translateX(300%)}
 }
